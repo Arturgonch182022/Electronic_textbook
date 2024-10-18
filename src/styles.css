@@ -1,0 +1,99 @@
+/* Устанавливаем высоту для html и body */
+html, body {
+    height: 100%; /* Задает 100% высоты для html и body */
+    margin: 0; /* Убирает отступы */
+    display: flex; /* Flexbox для размещения */
+    flex-direction: column; /* Вертикальная ориентация */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Светлый фон */
+    flex: 1; /* Главный контент занимает оставшееся пространство */
+}
+
+header {
+    background: #007bff; /* Цвет заголовка */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white; /* Цвет ссылок */
+    font-weight: bold;
+    transition: color 0.3s; /* Плавный переход цвета */
+}
+
+nav a:hover {
+    color: #ffdd57; /* Цвет при наведении */
+}
+
+main {
+    padding: 20px; /* Отступы для контента */
+    max-width: 800px; /* Максимальная ширина контента */
+    margin: 0 auto; /* Центрирование */
+    background: white; /* Белый фон для контента */
+    border-radius: 8px; /* Скругленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+h2 {
+    color: #007bff; /* Цвет заголовков секций */
+}
+
+button {
+    background-color: #007bff; /* Цвет кнопок */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px; /* Скругленные углы кнопок */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавный переход цвета кнопки */
+}
+
+button:hover {
+    background-color: #0056b3; /* Цвет кнопки при наведении */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px; /* Скругленные углы полей ввода */
+    border: 1px solid #ccc; /* Цвет границы */
+    width: 100%; /* Ширина 100% */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+footer {
+    position: fixed; /* Фиксированное положение */
+    bottom: 0; /* Прижимаем к нижнему краю */
+    width: 100%; /* Ширина 100% */
+    background: #007bff; /* Цвет подвала */
+    color: white; /* Цвет текста */
+    text-align: center; /* Центрирование текста */
+    padding: 20px; /* Отступы для подвала */
+}
+
+footer a {
+    color: #FFDD57FF; /* Цвет ссылок в подвале */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Подчеркивание ссылок при наведении */
+}
+
+footer p {
+    margin: 5px 0; /* Отступы для текста */
+}
